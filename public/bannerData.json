@@ -1,0 +1,68 @@
+[
+  {
+    "bookId": 1,
+    "bookName": "The Dating Playbook for men",
+    "author": "F. Scott Fitzgerald",
+    "image": "../src/assets/pngwing 1.png",
+    "review": "Books to freshen up Your bookshelf",
+    "totalPages": 192,
+    "rating": 4.5,
+    "category": "Classic",
+    "tags": ["Fiction", "Romance"],
+    "publisher": "Scribner",
+    "yearOfPublishing": 1925
+  },
+  {
+    "bookId": 2,
+    "bookName": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "image": "../src/assets/money.png",
+    "review": "Learn money management",
+    "totalPages": 281,
+    "rating": 4.8,
+    "category": "Fiction",
+    "tags": ["Drama", "Social Justice"],
+    "publisher": "J.B. Lippincott & Co.",
+    "yearOfPublishing": 1960
+  },
+  {
+    "bookId": 3,
+    "bookName": "1984",
+    "author": "George Orwell",
+    "image": "https://i.ibb.co.com/MprDyVt/51-BIA4rrae-L-AC-UF1000-1000-QL80.jpg",
+    "review": "Learn all about Dystopian Politics",
+    "totalPages": 328,
+    "rating": 4.6,
+    "category": "Fiction",
+    "tags": ["Dystopian", "Political"],
+    "publisher": "Secker & Warburg",
+    "yearOfPublishing": 1949
+  },
+  {
+    "bookId": 4,
+    "bookName": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "image": "https://i.ibb.co.com/tYSWRfG/catcherrye-edited-1-800x.png",
+    "review": "Thrill that shivers your nerves",
+    "totalPages": 224,
+    "rating": 4.3,
+    "category": "Fiction",
+    "tags": ["Young Adult", "Identity"],
+    "publisher": "Little, Brown and Company",
+    "yearOfPublishing": 1951
+  },
+  {
+    "bookId": 5,
+    "bookName": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "image": "https://i.ibb.co.com/YdQDMpn/81me-ud-V63-L-AC-UF1000-1000-QL80.jpg",
+    "review": "Learn to love again",
+    "totalPages": 279,
+    "rating": 4.7,
+    "category": "Classic",
+    "tags": ["Romance", "Satire"],
+    "publisher": "T. Egerton, Whitehall",
+    "yearOfPublishing": 1813
+  }
+
+]
