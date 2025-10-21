@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ErrorPage from '../../pages/errorPage/ErrorPage';
+import Loading from '../../pages/loadingPage/Loading';
 
 const Banner = () => {
     const [slideData, setSlideData] = useState([]);
@@ -41,20 +42,20 @@ const Banner = () => {
     }
 
     if (slideData.length === 0) {
-        return <div className="p-16 text-center">Loading...</div>;
+        return <Loading />
     }
 
     return (
-        <div className='flex justify-between items-center p-16 mx-auto bg-gray-200 rounded-3xl my-10 relative overflow-hidden'>
+        <div className='flex justify-between items-center p-3 md:p-16 mx-auto bg-gray-200 rounded-3xl my-10 relative overflow-hidden'>
             <div>
-                <div className="relative min-h-[160px]">
+                <div className="relative min-h-[10rem] md:min-h-[160px]">
                     {slideData.map((slide, index) => {
                         return (
                             <h1
-                                key={slide.id || slide.bookId} 
+                                key={slide.id || slide.bookId}
                                 className={`
-                                    font-bold text-3xl md:text-5xl
-                                    absolute w-[20rem]
+                                    font-bold text-2xl sm:3xl md:text-5xl
+                                    absolute md:w-[20rem]
                                     top-0 left-0
                                     transition-opacity duration-1000 ease-in-out
                                     ${index === current ? 'opacity-100' : 'opacity-0'}
@@ -66,7 +67,7 @@ const Banner = () => {
                     })}
                 </div>
 
-                <button className='btn btn-success text-white my-5'>View Book List</button>
+                <button className='btn btn-success text-white my-2 md:my-5'>View Book List</button>
             </div>
 
             <div className='max-w-2xl relative min-w-[15rem] min-h-[200px] '>
@@ -74,9 +75,9 @@ const Banner = () => {
                     return (
                         <img
                             key={slide.id}
-                            className={`h-[20rem]
-                                w-full
-                                absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 
+                            className={`h-[12rem] sm:h-[15rem] md:h-[20rem]
+                                md:w-full
+                                absolute top-1/2 left-1/2 -translate-x-10 md:-translate-x-1/2 -translate-y-1/2 
                                 transition-opacity duration-1000 ease-in-out
                                 ${index === current ? 'opacity-100' : 'opacity-0'}
                             `}
