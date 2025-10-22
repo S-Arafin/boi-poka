@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect, useState } from 'react';
+import React, { Suspense } from 'react';
 import Loading from '../loadingPage/Loading';
 import Book from '../Book/Book';
 
