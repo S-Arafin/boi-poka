@@ -3,7 +3,7 @@ import Loading from '../loadingPage/Loading';
 import Book from '../Book/Book';
 
 const Books = ({data}) => {
-    const [allBooks, setAllBooks] = useState([]);
+    // const [allBooks, setAllBooks] = useState([]);
     // useEffect(()=>{
     //     fetch("/booksData.json")
     //     .then(res=>res.json())

@@ -74,7 +74,7 @@ const Banner = () => {
                 {slideData.map((slide, index) => {
                     return (
                         <img
-                            key={slide.id}
+                            key={slide.bookId}
                             className={`h-[12rem] sm:h-[15rem] md:h-[20rem]
                                 md:w-full
                                 absolute top-1/2 left-1/2 -translate-x-10 md:-translate-x-1/2 -translate-y-1/2 
